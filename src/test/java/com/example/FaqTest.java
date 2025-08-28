@@ -37,7 +37,7 @@ public class FaqTest {
                 .until(ExpectedConditions.visibilityOf(mainPage.getFaqAnswerElement(index)));
 
         assertTrue(mainPage.isFaqAnswerDisplayed(index),
-                "Ответ на вопрос " + (index+1) + " не отображается");
+                "Ответ  на  вопрос  " + (index+1) + " не  отображается");
     }
 
     @AfterEach
