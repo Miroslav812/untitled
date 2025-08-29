@@ -19,7 +19,7 @@
   </properties>
 
   <dependencies>
-    <!-- JUnit 5 -->
+    <!-- JUnit 5     -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -27,21 +27,21 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Selenium -->
+    <!-- Selenium     -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
     </dependency>
 
-    <!-- WebDriverManager -->
+    <!-- WebDriverManager    -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
       <version>${wdm.version}</version>
     </dependency>
 
-    <!-- Логгер, чтобы убрать NOP предупреждение -->
+    <!-- Логгер, чтобы убрать NOP предупреждение   -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
